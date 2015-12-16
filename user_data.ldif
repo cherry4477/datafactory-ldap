@@ -1,4 +1,4 @@
-dn:dc=my-domain,dc=com
+dn:dc=example,dc=com
 
 objectclass:dcObject
 
@@ -6,9 +6,9 @@ objectclass:organization
 
 o:Example, Inc.
 
-dc:my-domain
+dc:example
 
-dn:cn=Manager,dc=my-domain,dc=com
+dn:cn=Manager,dc=example,dc=com
 
 objectclass:organizationalRole
 
