@@ -1,3 +1,2 @@
-service sldap start
-/usr/sbin/sshd -D
+service slapd start
 tail -f /dev/null
