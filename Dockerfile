@@ -9,6 +9,7 @@ RUN chmod u+x start_ldap.sh
 
 RUN cp /slapd.conf /etc/openldap/slapd.conf
 RUN cp /usr/share/openldap-servers/DB_CONFIG.example /var/lib/ldap/DB_CONFIG
+RUN mv /etc/openldap/slapd.d{,.bak}
 
 RUN mkdir /etc/openldap/cacerts
 
