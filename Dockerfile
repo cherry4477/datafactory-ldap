@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos
 
 RUN yum install -y openldap openldap-servers openldap-clients
 
